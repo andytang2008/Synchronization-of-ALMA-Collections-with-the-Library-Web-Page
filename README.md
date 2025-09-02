@@ -8,7 +8,7 @@ Most modern library websites are built with content management systems (CMS) suc
 Meanwhile, discovery interfaces such as Primo provide patrons with powerful access to library collections. Primo has expanded beyond the traditional OPAC role by offering ways to showcase curated collections, allowing users to explore items in a focused and structured manner. However, Primo VE’s interface is not as easily customizable as a CMS-based library website, especially when it comes to integrating navigation menus, branding, or other tailored user interface elements.
 
 For example, our library maintains a collection in Alma called Tech Lending Items, which contains 112 loanable items for students and faculty. While Primo VE displays this collection and even supports thumbnails stored in MARC field 956, customizing the display within Primo to match our website’s design or navigation structure is challenging.
-
+![Description of image](Picture1.png)
 
 To provide a consistent patron experience, we decided to surface this collection directly on the library website. Rather than manually replicating the collection data—which would be inefficient and error-prone—we use the Alma Bib API to dynamically synchronize collection data. This allows us to display up-to-date item details (including titles, thumbnails, and metadata) within a CMS block or page.
 
